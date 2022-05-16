@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+body{
+  background-color: #111111;
+  font-family: 'Work Sans';
+  font-size: 16px;
+}
+
+.homenav{
+  background-color: transparent;
+  position: absolute;
+  --bs-bg-opacity: 0;
+  z-index: 9999;
+}
+
+.card{
+  border-radius: 12px;
+  border-style: none;
+  margin-top: 40px;
+}
+
+.carousel {
+  position:relative;
+  margin-top: 0px;
+}
+
+.card-img-top{
+border-radius: 12px 12px 0px 0px;
+}
+
+.form-control {
+  border-style: 2px solid white;
+}
+
+.dropdown-toggle{
+  border-bottom: 2px solid white;
+}
+
+.navbar{
+  padding-top: 1rem;
+
+}
+
+#search-icon{
+  margin-left: -45px;
+}
+
+.search-bar{
+  min-width: 400px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  margin-left: 40px;
+}
+
+.nav-active {
+  background-color:#fff;
+  position: fixed;
+}
+
+.navbar input{
+  border-radius: 24px;
+  background-color: transparent;
+  color:white !important;
+  border: 2px solid white;
+
+
+}
+
+input[type="text"]:focus {
+  background-color: transparent;
+  color:white !important;
+  border: 2px solid white;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+input[type="text"]:focus {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+
+
+
+
+/*
+Misty Blue
+#C3CEDA
+Blue Gray
+#738FA7
+Midnight Blue
+#0C4160
+Dark Blue
+#071330 */
+
+/* Add a black background color to the top navigation bar */
